@@ -1,0 +1,22 @@
+{
+    "name": "elf02/floppy",
+    "authors": [
+        {
+            "name": "ChrisB",
+            "email": "chris@elf02.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Floppy\\": "floppy"
+        },
+        "files": [
+            "floppy/Helpers.php"
+        ]
+    },
+    "require": {
+        "erusev/parsedown-extra": "^0.7.1",
+        "mustangostang/spyc": "^0.5.1",
+        "bramus/router": "^1.0"
+    }
+}
